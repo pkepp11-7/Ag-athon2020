@@ -1,0 +1,6 @@
+This file lists the ordering that the images were produced in our R pipline:
+Cropping.png
+Rotate.png
+Soil_removal.png
+Plot_grid.png
+Index_gradient.png

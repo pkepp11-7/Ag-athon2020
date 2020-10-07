@@ -1,0 +1,14 @@
+export(fieldRotate,fieldCrop,fieldShape,fieldPolygon,
+       fieldIndex,fieldMask,fieldMap,fieldInfo,fieldPlot,fieldCount,fieldArea,fieldDraw)
+importFrom("sp", "Polygons","Polygon","SpatialPolygonsDataFrame","SpatialPolygons","spsample",
+           "SpatialPointsDataFrame","over", "proj4string")
+importFrom("raster", "stack", "projection","plotRGB","res","projectRaster","crs",
+           "atan2","crop","rasterToPolygons","mask","extract","clump","drawLine","drawPoly","xyFromCell")
+importFrom("parallel", "makeCluster", "detectCores")
+importFrom("foreach", "foreach", "%dopar%")
+importFrom("doParallel", "registerDoParallel")
+importFrom("graphics", "abline", "axis", "lines", "par", "plot","points","locator","legend")
+importFrom("utils", "read.csv")
+importFrom("grDevices", "rgb", "col2rgb")
+importFrom("plyr", "join")
+importFrom("EBImage","watershed","distmap")
